@@ -24,7 +24,6 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.CheckBox5 = New System.Windows.Forms.CheckBox()
         Me.CheckBox6 = New System.Windows.Forms.CheckBox()
         Me.CheckBox7 = New System.Windows.Forms.CheckBox()
@@ -49,6 +48,7 @@ Partial Class Form1
         Me.cbl2 = New System.Windows.Forms.CheckedListBox()
         Me.cbl3 = New System.Windows.Forms.CheckedListBox()
         Me.cbl4 = New System.Windows.Forms.CheckedListBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -73,21 +73,9 @@ Partial Class Form1
         Me.TextBox1.Text = "MILKIE-MILKIE"
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Label1
-        '
-        Me.Label1.BackColor = System.Drawing.SystemColors.Window
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.Desktop
-        Me.Label1.Location = New System.Drawing.Point(121, 60)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(240, 34)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "AVALABLE FLAVOR"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
         'CheckBox5
         '
-        Me.CheckBox5.Location = New System.Drawing.Point(17, 379)
+        Me.CheckBox5.Location = New System.Drawing.Point(18, 330)
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(92, 19)
         Me.CheckBox5.TabIndex = 6
@@ -97,7 +85,7 @@ Partial Class Form1
         '
         'CheckBox6
         '
-        Me.CheckBox6.Location = New System.Drawing.Point(137, 379)
+        Me.CheckBox6.Location = New System.Drawing.Point(138, 330)
         Me.CheckBox6.Name = "CheckBox6"
         Me.CheckBox6.Size = New System.Drawing.Size(92, 19)
         Me.CheckBox6.TabIndex = 7
@@ -107,7 +95,7 @@ Partial Class Form1
         '
         'CheckBox7
         '
-        Me.CheckBox7.Location = New System.Drawing.Point(252, 379)
+        Me.CheckBox7.Location = New System.Drawing.Point(253, 330)
         Me.CheckBox7.Name = "CheckBox7"
         Me.CheckBox7.Size = New System.Drawing.Size(92, 19)
         Me.CheckBox7.TabIndex = 8
@@ -117,7 +105,7 @@ Partial Class Form1
         '
         'CheckBox8
         '
-        Me.CheckBox8.Location = New System.Drawing.Point(361, 379)
+        Me.CheckBox8.Location = New System.Drawing.Point(362, 330)
         Me.CheckBox8.Name = "CheckBox8"
         Me.CheckBox8.Size = New System.Drawing.Size(92, 19)
         Me.CheckBox8.TabIndex = 9
@@ -128,7 +116,7 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.PictureBox1.Location = New System.Drawing.Point(17, 112)
+        Me.PictureBox1.Location = New System.Drawing.Point(18, 63)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(92, 87)
         Me.PictureBox1.TabIndex = 10
@@ -136,7 +124,7 @@ Partial Class Form1
         '
         'PictureBox2
         '
-        Me.PictureBox2.Location = New System.Drawing.Point(137, 112)
+        Me.PictureBox2.Location = New System.Drawing.Point(138, 63)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(92, 87)
         Me.PictureBox2.TabIndex = 11
@@ -144,7 +132,7 @@ Partial Class Form1
         '
         'PictureBox3
         '
-        Me.PictureBox3.Location = New System.Drawing.Point(252, 112)
+        Me.PictureBox3.Location = New System.Drawing.Point(253, 63)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(92, 87)
         Me.PictureBox3.TabIndex = 12
@@ -152,7 +140,7 @@ Partial Class Form1
         '
         'PictureBox4
         '
-        Me.PictureBox4.Location = New System.Drawing.Point(361, 112)
+        Me.PictureBox4.Location = New System.Drawing.Point(362, 63)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(92, 87)
         Me.PictureBox4.TabIndex = 13
@@ -160,7 +148,7 @@ Partial Class Form1
         '
         'PictureBox5
         '
-        Me.PictureBox5.Location = New System.Drawing.Point(361, 285)
+        Me.PictureBox5.Location = New System.Drawing.Point(362, 236)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(92, 87)
         Me.PictureBox5.TabIndex = 17
@@ -168,7 +156,7 @@ Partial Class Form1
         '
         'PictureBox6
         '
-        Me.PictureBox6.Location = New System.Drawing.Point(252, 285)
+        Me.PictureBox6.Location = New System.Drawing.Point(253, 236)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(92, 87)
         Me.PictureBox6.TabIndex = 16
@@ -176,7 +164,7 @@ Partial Class Form1
         '
         'PictureBox7
         '
-        Me.PictureBox7.Location = New System.Drawing.Point(137, 286)
+        Me.PictureBox7.Location = New System.Drawing.Point(138, 237)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(92, 87)
         Me.PictureBox7.TabIndex = 15
@@ -184,7 +172,7 @@ Partial Class Form1
         '
         'PictureBox8
         '
-        Me.PictureBox8.Location = New System.Drawing.Point(17, 285)
+        Me.PictureBox8.Location = New System.Drawing.Point(18, 236)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(92, 87)
         Me.PictureBox8.TabIndex = 14
@@ -192,7 +180,7 @@ Partial Class Form1
         '
         'cb4
         '
-        Me.cb4.Location = New System.Drawing.Point(361, 205)
+        Me.cb4.Location = New System.Drawing.Point(362, 156)
         Me.cb4.Name = "cb4"
         Me.cb4.Size = New System.Drawing.Size(92, 19)
         Me.cb4.TabIndex = 5
@@ -202,7 +190,7 @@ Partial Class Form1
         '
         'cb3
         '
-        Me.cb3.Location = New System.Drawing.Point(252, 206)
+        Me.cb3.Location = New System.Drawing.Point(253, 157)
         Me.cb3.Name = "cb3"
         Me.cb3.Size = New System.Drawing.Size(92, 19)
         Me.cb3.TabIndex = 4
@@ -212,7 +200,7 @@ Partial Class Form1
         '
         'cb2
         '
-        Me.cb2.Location = New System.Drawing.Point(137, 205)
+        Me.cb2.Location = New System.Drawing.Point(138, 156)
         Me.cb2.Name = "cb2"
         Me.cb2.Size = New System.Drawing.Size(92, 19)
         Me.cb2.TabIndex = 3
@@ -224,7 +212,7 @@ Partial Class Form1
         '
         Me.cb1.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.cb1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.cb1.Location = New System.Drawing.Point(17, 205)
+        Me.cb1.Location = New System.Drawing.Point(18, 156)
         Me.cb1.Name = "cb1"
         Me.cb1.Size = New System.Drawing.Size(92, 19)
         Me.cb1.TabIndex = 2
@@ -236,7 +224,7 @@ Partial Class Form1
         '
         Me.CheckedListBox1.FormattingEnabled = True
         Me.CheckedListBox1.Items.AddRange(New Object() {"Regular", "Medium", "Large"})
-        Me.CheckedListBox1.Location = New System.Drawing.Point(17, 404)
+        Me.CheckedListBox1.Location = New System.Drawing.Point(18, 355)
         Me.CheckedListBox1.Name = "CheckedListBox1"
         Me.CheckedListBox1.Size = New System.Drawing.Size(92, 49)
         Me.CheckedListBox1.TabIndex = 26
@@ -245,7 +233,7 @@ Partial Class Form1
         '
         Me.CheckedListBox3.FormattingEnabled = True
         Me.CheckedListBox3.Items.AddRange(New Object() {"Regular", "Medium", "Large"})
-        Me.CheckedListBox3.Location = New System.Drawing.Point(137, 404)
+        Me.CheckedListBox3.Location = New System.Drawing.Point(138, 355)
         Me.CheckedListBox3.Name = "CheckedListBox3"
         Me.CheckedListBox3.Size = New System.Drawing.Size(92, 49)
         Me.CheckedListBox3.TabIndex = 27
@@ -254,7 +242,7 @@ Partial Class Form1
         '
         Me.CheckedListBox4.FormattingEnabled = True
         Me.CheckedListBox4.Items.AddRange(New Object() {"Regular", "Medium", "Large"})
-        Me.CheckedListBox4.Location = New System.Drawing.Point(252, 404)
+        Me.CheckedListBox4.Location = New System.Drawing.Point(253, 355)
         Me.CheckedListBox4.Name = "CheckedListBox4"
         Me.CheckedListBox4.Size = New System.Drawing.Size(92, 49)
         Me.CheckedListBox4.TabIndex = 28
@@ -263,7 +251,7 @@ Partial Class Form1
         '
         Me.CheckedListBox5.FormattingEnabled = True
         Me.CheckedListBox5.Items.AddRange(New Object() {"Regular", "Medium", "Large"})
-        Me.CheckedListBox5.Location = New System.Drawing.Point(361, 404)
+        Me.CheckedListBox5.Location = New System.Drawing.Point(362, 355)
         Me.CheckedListBox5.Name = "CheckedListBox5"
         Me.CheckedListBox5.Size = New System.Drawing.Size(92, 49)
         Me.CheckedListBox5.TabIndex = 29
@@ -272,7 +260,7 @@ Partial Class Form1
         '
         Me.cbl1.FormattingEnabled = True
         Me.cbl1.Items.AddRange(New Object() {"Regular", "Medium", "Large"})
-        Me.cbl1.Location = New System.Drawing.Point(18, 230)
+        Me.cbl1.Location = New System.Drawing.Point(19, 181)
         Me.cbl1.Name = "cbl1"
         Me.cbl1.Size = New System.Drawing.Size(92, 49)
         Me.cbl1.TabIndex = 30
@@ -282,7 +270,7 @@ Partial Class Form1
         '
         Me.cbl2.FormattingEnabled = True
         Me.cbl2.Items.AddRange(New Object() {"Regular", "Medium", "Large"})
-        Me.cbl2.Location = New System.Drawing.Point(137, 230)
+        Me.cbl2.Location = New System.Drawing.Point(138, 181)
         Me.cbl2.Name = "cbl2"
         Me.cbl2.Size = New System.Drawing.Size(92, 49)
         Me.cbl2.TabIndex = 31
@@ -292,7 +280,7 @@ Partial Class Form1
         '
         Me.cbl3.FormattingEnabled = True
         Me.cbl3.Items.AddRange(New Object() {"Regular", "Medium", "Large"})
-        Me.cbl3.Location = New System.Drawing.Point(252, 230)
+        Me.cbl3.Location = New System.Drawing.Point(253, 181)
         Me.cbl3.Name = "cbl3"
         Me.cbl3.Size = New System.Drawing.Size(92, 49)
         Me.cbl3.TabIndex = 32
@@ -302,18 +290,28 @@ Partial Class Form1
         '
         Me.cbl4.FormattingEnabled = True
         Me.cbl4.Items.AddRange(New Object() {"Regular", "Medium", "Large"})
-        Me.cbl4.Location = New System.Drawing.Point(361, 230)
+        Me.cbl4.Location = New System.Drawing.Point(362, 181)
         Me.cbl4.Name = "cbl4"
         Me.cbl4.Size = New System.Drawing.Size(92, 49)
         Me.cbl4.TabIndex = 33
         Me.cbl4.Visible = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(400, 428)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.TabIndex = 34
+        Me.Label1.Text = "Label1"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(554, 540)
+        Me.ClientSize = New System.Drawing.Size(483, 508)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.cbl4)
         Me.Controls.Add(Me.cbl3)
         Me.Controls.Add(Me.cbl2)
@@ -338,7 +336,6 @@ Partial Class Form1
         Me.Controls.Add(Me.cb3)
         Me.Controls.Add(Me.cb2)
         Me.Controls.Add(Me.cb1)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBox1)
         Me.Name = "Form1"
         Me.Text = "Login"
@@ -356,7 +353,6 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Label1 As Label
     Friend WithEvents CheckBox5 As CheckBox
     Friend WithEvents CheckBox6 As CheckBox
     Friend WithEvents CheckBox7 As CheckBox
@@ -381,4 +377,5 @@ Partial Class Form1
     Friend WithEvents cbl2 As CheckedListBox
     Friend WithEvents cbl3 As CheckedListBox
     Friend WithEvents cbl4 As CheckedListBox
+    Friend WithEvents Label1 As Label
 End Class
